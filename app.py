@@ -11,7 +11,7 @@ AUTHZ_URL        = f"{AUTH_BASE}/oauth2/auth"
 TOKEN_URL        = f"{AUTH_BASE}/core/connect/token"
 
 
-CLIENT_ID        = os.getenv("D2L_CLIENT_ID", "e295b934-9f0d-4d2e-aa34-816e9ef582e2")   # from D2L OAuth app
+CLIENT_ID        = os.getenv("D2L_CLIENT_ID", "<d2L-client>")   # from D2L OAuth app
 CLIENT_SECRET    = os.getenv("D2L_CLIENT_SECRET", "")
 SCOPES           = os.getenv("D2L_SCOPES", "core:*:* users:userdata:read")
 REDIRECT_URI     = os.getenv("D2L_REDIRECT_URI", "https://localhost:3001/callback")
