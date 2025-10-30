@@ -5,7 +5,7 @@ from pathlib import Path
 import requests, keyring
 
 # ====== CONFIG ======
-BRIGHTSPACE_ROOT = os.getenv("D2L_ROOT", "https://elearning.delta.edu")
+BRIGHTSPACE_ROOT = os.getenv("D2L_ROOT", "https://your-school.edu")
 AUTH_BASE        = os.getenv("D2L_AUTH_BASE", "https://auth.brightspace.com")
 AUTHZ_URL        = f"{AUTH_BASE}/oauth2/auth"
 TOKEN_URL        = f"{AUTH_BASE}/core/connect/token"
