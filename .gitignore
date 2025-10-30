@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pem
+*-key.pem
+# macOS Keychain-stored refresh token is not in repo, but session cache path here for safety
+Library/Application Support/d2l-desktop-automation/session.json
+
