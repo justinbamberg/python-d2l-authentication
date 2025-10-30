@@ -148,6 +148,15 @@ Safe sharing tips:
 
 ---
 
+## D2L OAuth app setup (with screenshots)
+See: [docs/D2L-OAuth-Setup.md](docs/D2L-OAuth-Setup.md)
+
+Add your screenshots to:
+- `docs/img/register-application.png`
+- `docs/img/application-details.png`
+
+---
+
 ## License
 Choose and add a license (e.g., MIT) if you intend to open-source. If internal only, omit.
 
